@@ -56,16 +56,11 @@
   - -: 戦闘なし
   - b: battle 戦闘あり
 6. __情報開示__
-  - /perso: personality キャラクターの情報
-  - /thoug: thought キャラクターの思考
-  - /emoti: emotion キャラクターの感情
-  - /past_: past キャラクターの過去
-  - /movem: movement 物語的な動き
-  - /point: pointless 物語的な意味がない
-  - /envir: environment 雰囲気作りの環境感
-  - /histo: history 雰囲気作りの歴史感
-  - /fanta: fantasy 雰囲気作りのファンタジー感
+  - !envir: environment 雰囲気作りの環境感
+  - !histo: history 雰囲気作りの歴史感
+  - !fanta: fantasy 雰囲気作りのファンタジー感
   - @xxxxx: プロット系統（xは英数字）
+  - need to think　繰り返し情報を明示する
 7. __内容__
   - 個別の出来事を簡潔に記述する
 
@@ -144,25 +139,11 @@
     - 戦闘描写の出来事
     - 試練その他で闘争する場面は刺激が強いため一目で分かるようにしておく
 6. __情報開示__
-  - /perso: personality キャラクターの情報
-    - キャラクターの特徴が読者に伝わる出来事
-  - /thoug: thought キャラクターの思考
-    - キャラクターの思考が読者に伝わる出来事
-  - /emoti: emotion キャラクターの感情
-    - キャラクターの情緒的な感覚が読者に伝わる出来事
-  - /past_: past キャラクターの過去
-    - キャラクターの過去が読者に伝わる出来事
-  - /movem: movement 物語的な動き
-    - プロット系統における非キャラクター系統の出来事で物語が動いたように読者に伝わるもの
-  - /point: pointless 物語的な意味がない
-    - 物語の流れに直接の関係がないように読者に伝わるもの
-    - キャラクターが特定の物事について見せた感情など
-    - 前兆要素の中で /movem に属さない出来事など
-  - /envir: environment 雰囲気作りの環境感
+  - !envir: environment 雰囲気作りの環境感
     - 世界観の雰囲気作りで環境的な物事
-  - /histo: history 雰囲気作りの歴史感
+  - !histo: history 雰囲気作りの歴史感
     - 世界観の雰囲気作りで歴史を感じさせる物事
-  - /fanta: fantasy 雰囲気作りのファンタジー感
+  - !fanta: fantasy 雰囲気作りのファンタジー感
     - 世界観の雰囲気作りでファンタジーを感じさせる物事
   - @xxxxx: プロット系統（xは英数字）
     - プロット系統についてキャラクター固有のものや特定の出来事に関するもの
