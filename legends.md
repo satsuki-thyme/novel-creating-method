@@ -5,7 +5,7 @@
 ``` yml
 - /011 str gen --- f - /fanta 内容
 - /111 inf fsd mid f - /thoug 内容
-- /111 act rsv mid f - /emoti 内容
+- /111 act pre mid f - /emoti 内容
 - /121 mys hnt lst f - /perso 内容
 - /132 mod sug lst f - @main_ 内容
 - /211 oth fsd rec b - @any__ 内容
@@ -38,7 +38,7 @@
   - oth: othres その他
 2. __前兆要素__
   - fsd: foreshadowing 伏線
-  - rsv: reserve リザーブ
+  - pre: preparation 準備
   - hnt: hints ヒント
   - sug: suggestion 予兆的示唆
   - flg: flags フラグ
@@ -106,7 +106,7 @@
 2. __前兆要素__
   - fsd: foreshadowing 伏線
     - マニュアルを参照
-  - rsv: reserve リザーブ
+  - pre: preparation 準備
     - マニュアルを参照
   - hnt: hints ヒント
     - マニュアルを参照
