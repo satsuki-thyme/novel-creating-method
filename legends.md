@@ -3,12 +3,12 @@
 - 各項目は半角スペースで区切る
 
 ``` yml
-- /011 str gen --- f - /fanta 内容
-- /111 inf fsd mid f - /thoug 内容
+- /011 evn gen --- f - /fanta 内容
+- /111 inf fsh mid f - /thoug 内容
 - /111 act pre mid f - /emoti 内容
 - /121 mys hnt lst f - /perso 内容
-- /132 mod sug lst f - @main_ 内容
-- /211 oth fsd rec b - @any__ 内容
+- /132 mod prm lst f - @main_ 内容
+- /211 oth fsh rec b - @any__ 内容
    1   2   3   4   5 6 7      8
 ```
 
@@ -27,41 +27,39 @@
     - xx2: 恋愛
     - xx0, 3-9: 予備
 2. __プロット上の意味__
-  - str: structure 物語の構造要素
-  - inf: information 情報
-  - act: acting 演技
-  - mys: mystery 謎の提示
+  - act: action アクション
+  - evn: event 出来事
+  - ply: plaing 演技
   - bgr: background 背景
-  - gds: global desire 全体欲求
-  - lds: local desire 部分欲求
+  - gDs: global desire 全体欲求
+  - lDs: local desire 部分欲求
   - mod: modification 雰囲気作りなどの付加要素
-  - oth: othres その他
+  - oth: others その他
 2. __前兆要素__
-  - fsd: foreshadowing 伏線
-  - pre: preparation 準備
+  - fsh: foreshadowing 伏線
   - hnt: hints ヒント
-  - sug: suggestion 約束的示唆
+  - prm: promise 約束的示唆
   - flg: flags フラグ
+  - pre: preparation 準備
 3. __住所__
   - nxt: next 宛先としての次の要素
   - mid: middle 宛先としての中間点
   - lst: last 宛先としての最終点
   - rec: receive 前兆要素の受け取り
-  - xxs: send 宛先としての個別の住所（xは英数字）
-  - xxr: receive 受け取りとしての個別の住所（xは英数字）
+  - sxx: send 宛先としての個別の住所（xは英数字）
+  - rxx: receive 受け取りとしての個別の住所（xは英数字）
 4. __舞台__
   - f: front 主人公の眼前
   - b: back 主人公の知らない場所
 5. __戦闘__
   - -: 戦闘なし
   - b: battle 戦闘あり
-6. __情報開示__
+6. __情報提示__
   - !envir: environment 雰囲気作りの環境感
   - !histo: history 雰囲気作りの歴史感
   - !fanta: fantasy 雰囲気作りのファンタジー感
   - @xxxxx: プロット系統（xは英数字）
   - $xxxxx: プロット系統の同じ内容の繰り返す際の2回目以降（xは英数字）
-  )
 7. __内容__
   - 個別の出来事を簡潔に記述する
 
@@ -80,39 +78,36 @@
     - xx2: 恋愛
     - xx0, 3-9: 予備
 2. __プロット上の意味__
-  - str: structure 物語の構造要素
-    - プロットの筋となる主要な出来事
-    - str と inf だけ追っていれば話が見える
-  - inf: information 情報
-    - 主人公に与えられる情報
-    - str と inf だけ追っていれば話が見える
-  - act: acting 演技
+  - act: action アクション
+    - evn と対となるアクション
+    - act, evn だけ追っていれば話が見える
+  - evn: event 出来事
+    - act と対となる出来事
+    - act, evn だけ追っていれば話が見える
+  - ply: plaing 演技
     - 話の筋に影響する演技
     - 喜怒哀楽などの発露
-  - mys: mystery 謎の提示
-    - 読者に与える謎
-    - 主人公が認知するかしないかにかかわらず読者に与えられる謎
   - bgr: background 背景
     - キャラクターなどの背景
-  - gds: global desire 全体欲求
+  - gDs: global desire 全体欲求
     - 各キャラクターの持つ物語を通して貫かれる欲求
-  - lds: local desire 部分欲求
+  - lDs: local desire 部分欲求
     - 各キャラクターの持つ、単位範囲内（シーン内限定など）の欲求
   - mod: modification 雰囲気作りなどの付加要素
     - 計画的に描く必要のある演出
     - 世界観やキャラクター性
-  - oth: othres その他
+  - oth: others その他
     - 前兆要素としての意味しか持たないもの
 2. __前兆要素__
-  - fsd: foreshadowing 伏線
-    - マニュアルを参照
-  - pre: preparation 準備
+  - fsh: foreshadowing 伏線
     - マニュアルを参照
   - hnt: hints ヒント
     - マニュアルを参照
-  - pro: promise 約束的示唆
+  - prm: promise 約束的示唆
     - マニュアルを参照
   - flg: flags フラグ
+    - マニュアルを参照
+  - pre: preparation 準備
     - マニュアルを参照
 3. __住所__
   - nxt: next 宛先としての次の要素
@@ -123,10 +118,10 @@
     - キャラクターごとの試練系統の終わりで前兆要素が rec するものへの送り元
   - rec: receive 前兆要素の受け取り
     - nxt, mid, lst の受け取り（前兆要素の回収）を行う出来事
-  - xxs: send 宛先としての個別の住所（xは英数字）
-    - nxt, mid, lst 以外の個別の xxr への送り元
-  - xxr: receive 受け取りとしての個別の住所（xは英数字）
-    - xxs の受け取り（前兆余所の回収）を行う出来事
+  - sxx: send 宛先としての個別の住所（xは英数字）
+    - nxt, mid, lst 以外の個別の rxx への送り元
+  - rxx: receive 受け取りとしての個別の住所（xは英数字）
+    - sxx の受け取り（前兆余所の回収）を行う出来事
 4. __舞台__
   - f: front 主人公の眼前
     - 主人公が認知する出来事
@@ -139,7 +134,7 @@
   - b: battle 戦闘あり
     - 戦闘描写の出来事
     - 試練その他で闘争する場面は刺激が強いため一目で分かるようにしておく
-6. __情報開示__
+6. __情報提示__
   - !envir: environment 雰囲気作りの環境感
     - 世界観の雰囲気作りで環境的な物事
   - !histo: history 雰囲気作りの歴史感
