@@ -40,7 +40,7 @@
   - fsd: foreshadowing 伏線
   - pre: preparation 準備
   - hnt: hints ヒント
-  - sug: suggestion 予兆的示唆
+  - sug: suggestion 約束的示唆
   - flg: flags フラグ
 3. __住所__
   - nxt: next 宛先としての次の要素
@@ -110,7 +110,7 @@
     - マニュアルを参照
   - hnt: hints ヒント
     - マニュアルを参照
-  - sug: suggestion 予兆的示唆
+  - pro: promise 約束的示唆
     - マニュアルを参照
   - flg: flags フラグ
     - マニュアルを参照
