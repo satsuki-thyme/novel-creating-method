@@ -7,3 +7,4 @@
 
 ## 思考ノート
 - thinking-notes/thi-001.md: 情報開示の対象とする情報とは
+- thinking-notes/thi-002.md: 伏線的要素の扱い
