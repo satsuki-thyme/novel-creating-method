@@ -5,6 +5,6 @@
 - manual.md: ..... 解説書
 - MGMT.md: ....... 管理
 
-## 思考ノート
-- thinking-notes/thi-001.md: 情報開示の対象とする情報とは
-- thinking-notes/thi-002.md: 伏線的要素の扱い
+## アイデアノート
+- idea-notes/ide-001.md: 情報開示の対象とする情報とは
+- idea-notes/ide-002.md: 伏線的要素の扱い
