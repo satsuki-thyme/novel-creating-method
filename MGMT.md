@@ -3,7 +3,7 @@
 ## tast
 
 - [p] manual.md
-  - [p] character-trais.ymlの追加 🟧🟧🟧 work location 🟧🟧🟧
+  - [p] character-traits.ymlの追加 🟧🟧🟧 work location 🟧🟧🟧
 
 ## tast await
 
