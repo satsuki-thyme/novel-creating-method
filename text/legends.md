@@ -1,9 +1,13 @@
 # 凡例
 
+## 表記規則
+
 - 各項目は半角スペースで区切る
 - 各項目の文字数は固定とし、文字数が足りないものは「-（ハイフン）」で補う
 - 記入することがない場所には「-（ハイフン）」を規定の文字数だけ記入する
 - 右端の説明が同じで項目が異なるアイテムは、異なる項目東端の説明のみを記入しその他を半角スペースで埋める
+
+### 凡例
 
 ``` yaml
 - /alice odl rose- tPh e04 b - threat-: ローズが奇蹟の力で信者の死んだ少女を蘇生させる
@@ -14,44 +18,57 @@
 1  2     3   4     5   6   7 8 9      a b
 ```
 
+- 1. 先頭記号
+- 2. 主体の系統
+- 3. 種類の系統
+- 4. 行動の主体
+- 5. 関連構造体
+- 6. 関連構造体の係り受け
+- 7. 舞台
+- 8. 戦闘
+- 9. その他の意味
+- a. コロン
+- b. 内容
+
+## 解説
+
 - __1. 先頭記号__
-  - 「- /（ハイフン・半角スペース・スラッシュ）」を記述する
+  - 「- /（ハイフン・半角スペース・スラッシュ）」を記述する（YAML記号を含む）
 - __2. 主体の系統__
   - 「誰」の物語構造要素かを表す
   - 複数人をまとめるときは適宜「grp11」などとする
   - 一般系統の記号は「gener」とする
   - 統合系統の表記は「integ」とする
   - 凡例
-    - alice: 人名（5文字）
-    - rose-: 人名（4文字）
+    - alice: キャラクタープロット - 人名（5文字の場合）
+    - rose-: キャラクタープロット - 人名（4文字の場合）
+    - integ: 統合プロット
+    - gener: プロット外一般
     - grp11: グループ11
-    - gener: 一般系統
-    - integ: 統合系統
-    - noLin: 系統外
 - __3. 種類の系統__
   - 誰の「何」の物語構造要素かを表す
   - 特別な系統を作るときは適宜「l1A」（lineage 1 Actual）「l1R」（lineage 1 Relationship）「l1C」（lineage 1 Consequence）などとする
   - 凡例
-    - odA: 試練（orderal actual）
-    - odR: 試練関連（ordeal relationship）
-    - odC: 試練の結果（irdeal consequence）
-    - evn: 出来事（event）
-    - env: 環境（environment）
-    - inf: 情報提示（information）
-    - fat: 運命の交差（fate intersection）
-    - gDs: 全体欲求（grand desire）
-    - lDs: 局所欲求（local desire）
-    - bgd: 背景（background）
-    - l1A: サブ系統の試練（lineaeg 1 actual）
-    - l1R: サブ系統の試練関連（lineage 1 relationship）
-    - l1C: サブ系統の試練の結果（lineage 1 consequence）
-    - int: キャラクター系統と統合系統の交わり（intersection）
-    - key: 統合系統のキー要素（key element）
-    - drv: 統合系統の駆動要素（drive）
-    - dec: 装飾的な出来事（キャラクター性の提示など）（decoration）
-    - mod: 世界観・キャラクター描写（modification）
-    - lov: 恋愛（love）
-    - hok: フック（hook）
+    - chA: キャラクターメインプロット - 試練（character ordeal）
+    - chR: キャラクターメインプロット - 試練関連（character relationship）
+    - chC: キャラクターメインプロット - 試練の結果（character consequence）
+    - l1A: キャラクターサブプロット - 試練（lineaeg 1 actual）
+    - l1R: キャラクターサブプロット - 試練関連（lineage 1 relationship）
+    - l1C: キャラクターサブプロット - 試練の結果（lineage 1 consequence）
+    - key: 統合プロット - キー要素（key element）
+    - drv: 統合プロット - 駆動要素（drive）
+    - int: キャラクタープロット - 統合プロットの交わり（intersection）
+    - lov: 恋愛プロット（love）
+    - evn: 特定プロットによらない - 出来事（event）
+    - cir: 特定プロットによらない - 環境（circumstance）
+    - inf: 特定プロットによらない - 情報提示（information）
+    - fat: 特定プロットによらない - 運命の交差（fate intersection）
+    - gDs: 特定プロットによらない - 全体欲求（grand desire）
+    - lDs: 特定プロットによらない - 局所欲求（local desire）
+    - bgd: 特定プロットによらない - 背景（background）
+    - dec: 特定プロットによらない - 装飾的な出来事（キャラクター性の提示など）（decoration）
+    - mod: 特定プロットによらない - 世界観・キャラクター描写（modification）
+    - hok: 特定プロットによらない - フック（hook）
 - __4. 行動の主体__
   - 「誰」の行動かを表す。しばしば「主体の系統」と同じになるが、キャラクターAの系統でキャラクターBの発言が取り上げられるなどの場合がある
   - 凡例は「主体の系統」と同じ
@@ -97,6 +114,6 @@
     - favorbl: いい状況
     - thought: 気持ちや思い
 - __a. コロン__
-  - 出来事とは「: （コロン・半角スペース）」で区切る
+  - 後続の「内容」とは「: （コロン・半角スペース）」で区切る（YAML記法）
 - __b. 内容__
   - 個別の出来事を簡潔に記述する
