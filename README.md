@@ -2,9 +2,10 @@
 
 ## 目次
 
-- text/instructions.md: ...................... 手順書
-- text/legends.md: ........................... 凡例
-- text/manual.md: ............................ 解説書
+- text/instructions.md:                        手順書
+- text/legends.md:                             凡例
+- text/manual-gds.md:                          解説書 - 群像劇的
+- text/manual-std.md:                          解説書 - 標準
 - text/plactical-application-of-structure.yml: 物語構造体の実践
 
 ## アイデアノート

@@ -2,7 +2,7 @@
 
 ## tast
 
-- [ ] manual.md
+- [ ] manual-std.md
 - [ ] instruction.md
 - [ ] legends.md
 
@@ -11,5 +11,5 @@
 
 ## archive
 
-- [x] manual.md character-traits.ymlの追加
-- [x] manual.md キャラクター設定についてテンプレートへのリンクを追加
+- [x] manual-std.md character-traits.ymlの追加
+- [x] manual-std.md キャラクター設定についてテンプレートへのリンクを追加
