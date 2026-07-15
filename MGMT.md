@@ -1,15 +1,14 @@
 # management
 
-## tast
+## task
 
-- [ ] manual-std.md
-- [ ] instruction.md
-- [ ] legends.md
-
-## tast await
-
-
-## archive
-
-- [x] manual-std.md character-traits.ymlの追加
-- [x] manual-std.md キャラクター設定についてテンプレートへのリンクを追加
+- 🟨 task
+  - 🟦 reserve
+  - 🟦 await
+  - 🟦 archive
+    - [x] manual-std.md
+    - [x] instruction.md
+    - [x] legends.md
+    - [x] manual-std.md character-traits.ymlの追加
+    - [x] manual-std.md キャラクター設定についてテンプレートへのリンクを追加
+  - 🟦 void
