@@ -10,12 +10,12 @@
 ### 凡例
 
 ``` yaml
-- /alice odl rose- tPh e04 b - threat-: ローズが奇蹟の力で信者の死んだ少女を蘇生させる
-- /rose-                       @apostl: ローズが奇蹟の力で信者の死んだ少女を蘇生させる
-- /alice odl third tPh e04 f - threat-: ローズの噂をする者がいる
-- /alice odl alice hnt s05 f - -------: アリスはローズの名を知っている
-- /alice odl alice tPh m04 f b ordeal-: アリスがローズと戦う
-1  2     3   4     5   6   7 8 9      a b
+- /alice odl rose- tPh e04 b - threat- ローズが奇蹟の力で信者の死んだ少女を蘇生させる
+- /rose-                       @apostl ローズが奇蹟の力で信者の死んだ少女を蘇生させる
+- /alice odl third tPh e04 f - threat- ローズの噂をする者がいる
+- /alice odl alice hnt s05 f - ------- アリスはローズの名を知っている
+- /alice odl alice tPh m04 f b ordeal- アリスがローズと戦う
+1  2     3   4     5   6   7 8 9       a
 ```
 
 - 1. 先頭記号
@@ -27,8 +27,7 @@
 - 7. 舞台
 - 8. 戦闘
 - 9. その他の意味
-- a. コロン
-- b. 内容
+- a. 内容
 
 ## 解説
 
@@ -113,7 +112,5 @@
     - threat-: 脅かす状況
     - favorbl: いい状況
     - thought: 気持ちや思い
-- __a. コロン__
-  - 後続の「内容」とは「: （コロン・半角スペース）」で区切る（YAML記法）
-- __b. 内容__
+- __a. 内容__
   - 個別の出来事を簡潔に記述する
